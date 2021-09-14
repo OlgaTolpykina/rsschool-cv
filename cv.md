@@ -41,6 +41,8 @@ function multiply(a, b) {
 let result = multiply(2, 5);
 alert(result);
 
+```
+
 ***
 
 ## Education
