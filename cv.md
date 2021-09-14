@@ -40,3 +40,24 @@ function multiply(a, b) {
 
 let result = multiply(2, 5);
 alert(result);
+
+***
+
+## Education
+
+* ### University: 
+    - MGIMO University, Financial markets
+    - Bocconi Unversity, Economic and Social Sciences
+* ### Courses:
+    - HTML Academy
+    - Geekbrains
+    - JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+    - RS School Course JavaScript/Front-end (in progress)
+
+***
+
+## Languages
+
+* English \- Advanced
+* Italian \- Advanced
+* Russian \- Native
