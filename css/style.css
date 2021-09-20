@@ -1,5 +1,6 @@
 body {
     font-size: 17px;
+    background-color: rgba(211, 211, 211);
 }
 
 .container {
@@ -9,6 +10,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     box-shadow: -5px 5px 20px 5px;
+    background-color: #fff;
 }
 
 .visually-hidden {
@@ -312,11 +314,10 @@ body {
 }
 
 @media (max-width: 576px) {
-
-    .header-avatar {
-        display: none;
+    .header {
+        display: block;
     }
-    
+
     .main-content {
         display: block;
     }
@@ -332,7 +333,7 @@ body {
     }
 
     .header-navmobile {
-        display: block;
+        display: flex;
     }
 
     .header-navmobile-input {
@@ -340,7 +341,7 @@ body {
     }
 
      .header-navmobile-label {
-        margin: 15px 15px 15px 0;
+        margin: 15px;
         position: relative;
         display: flex;
         align-items: center;
@@ -423,8 +424,21 @@ body {
         display: flex;
       }
 
+    .header-avatar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-about-name, .header-about-position, .header-about-txt {
+        text-align: center;
+    }
+
     .education table {
         margin-bottom: 15px;
+    }
+
+    .footer-item {
+        padding: 15px 0;
     }
 
 }

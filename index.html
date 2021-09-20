@@ -10,6 +10,20 @@
 <body>
     <div class="container">
         <header class="header">
+            <nav class="header-navmobile">
+                <label class="header-navmobile-label" for="menu">
+                    <span class="header-navmobile-icon"></span>
+                </label>
+                <input class="header-navmobile-input" type="checkbox" id="menu">
+                <ul class="header-navmobile-list">
+                    <li class="header-navmobile-list-item"><a href="#contacts">Contacts</a></li>
+                    <li class="header-navmobile-list-item"><a href="#skills">Skills</a></li>
+                    <li class="header-navmobile-list-item"><a href="#projects">Recent projects</a></li>
+                    <li class="header-navmobile-list-item"><a href="#languages">Languages</a></li>
+                    <li class="header-navmobile-list-item"><a href="#education">Education</a></li>
+                    <li class="header-navmobile-list-item"><a href="experience">Experience</a></li>
+                </ul>
+            </nav>
             <div class="header-avatar">
                 <img class="header-avatar-img" src="images/my-photo.JPG" alt="">
             </div>
@@ -33,20 +47,6 @@
                     resources for self-education and a large community of like-minded people.
                 </p>
             </div>
-            <nav class="header-navmobile">
-                <label class="header-navmobile-label" for="menu">
-                    <span class="header-navmobile-icon"></span>
-                </label>
-                <input class="header-navmobile-input" type="checkbox" id="menu">
-                <ul class="header-navmobile-list">
-                    <li class="header-navmobile-list-item"><a href="#contacts">Contacts</a></li>
-                    <li class="header-navmobile-list-item"><a href="#skills">Skills</a></li>
-                    <li class="header-navmobile-list-item"><a href="#projects">Recent projects</a></li>
-                    <li class="header-navmobile-list-item"><a href="#languages">Languages</a></li>
-                    <li class="header-navmobile-list-item"><a href="#education">Education</a></li>
-                    <li class="header-navmobile-list-item"><a href="experience">Experience</a></li>
-                </ul>
-            </nav>
         </header>
         <main class="main-content">
             <section class="contacts" id="contacts">
@@ -200,13 +200,13 @@
                 <article class="project-example">
                     <h4 class="visually-hidden-mobile">Recent project</h4>
                     <figure class="project-example-item">
-                        <a href="https://olgatolpykina.github.io/">
+                        <a href="https://olgatolpykina.github.io/" target="new">
                             <img class="project-example-img" src="images/waxom.JPG" alt="Превью проекта">
                         </a> 
                         <figcaption class="project-txt">
                             <p class="project-txt-languages">HTML, CSS</p>
                             <p class="project-txt-description">Adaptive markup of a landing page</p>
-                            <a class="project-txt-link" href="https://olgatolpykina.github.io/">
+                            <a class="project-txt-link" href="https://olgatolpykina.github.io/" target="new">
                                 <span>Details</span>
                             </a>
                         </figcaption>
@@ -284,5 +284,6 @@ alert(result);
             </div>
           </footer>
     </div>
+    <script src="estimation.js"></script>
 </body>
 </html>
